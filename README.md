@@ -26,22 +26,6 @@ It is designed using industry best practices including:
 
 The framework covers **26 functional test cases + 4 additional negative test cases** to ensure both functional and edge-case validation.
 
----
-
-# 🏗 Framework Architecture
-
-```text
-Test Classes
-   ↓
-Page Object Model (POM)
-   ↓
-Utility Layer
-(ConfigReader, JSONReader, DriverFactory)
-   ↓
-WebDriverManager
-   ↓
-Browser (Chrome / Edge / Firefox)
-```
 
 ---
 
@@ -76,16 +60,19 @@ Browser (Chrome / Edge / Firefox)
 ```text
 src
 │
-├── test/java
-│   ├── tests
-│   ├── pages
-│   ├── utils
-│   └── base
+├── main
+├──── java
+│      ├── DTOs
+│      ├── Pages
+│      ├── Utils
+├──── resources
+│      ├── Config
+│      ├── Screenshots
+│      ├── TestData
 │
-├── test/resources
-│   ├── testdata (JSON files)
-│   ├── config.properties
-│   └── testng.xml
+├── test/java
+│   ├── Tests
+testng.xml
 ```
 
 ---
@@ -107,24 +94,6 @@ src
 - Total Test Cases: **26**
 - Bonus Negative Test Cases: **4**
 
----
-
-# ▶️ How to Run the Framework
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/AutomationExercise-Selenium-Framework
-```
-
-### 2. Install dependencies
-```bash
-mvn clean install
-```
-
-### 3. Run TestNG Suite
-```bash
-testng.xml
-```
 
 ---
 
@@ -136,8 +105,6 @@ testng.xml
 ## 📌 Test Execution
 <img src="assets/test-execution.png" width="900"/>
 
-## 📌 Cross Browser Execution
-<img src="assets/cross-browser.png" width="900"/>
 
 ## 📌 JSON Test Data
 <img src="assets/json-data.png" width="900"/>
@@ -159,12 +126,6 @@ This framework integrates **Allure Reports** to generate detailed HTML reports i
 - Failed test analysis
 - Execution timeline
 - Suite-wise results
-
-To generate report:
-
-```bash
-allure serve allure-results
-```
 
 ---
 
@@ -201,15 +162,11 @@ Any unexpected behavior observed during execution is documented using structured
 
 # 👨‍💻 Author
 
-**Your Name**
+**MOSTAFA MAHMOUD**
 
 Software Test Engineer
 
 🏅 ISTQB® Certified Tester Foundation Level (CTFL v4.0)
-
-📧 Email: your-email
-
-🔗 LinkedIn: your-linkedin
 
 ---
 
