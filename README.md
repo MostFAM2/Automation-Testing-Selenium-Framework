@@ -1,4 +1,4 @@
-# 🚀 AutomationExercise Selenium Test Automation Framework
+# 🚀 Selenium Test Automation Framework
 
 <p align="center">
 
@@ -100,20 +100,18 @@ testng.xml
 # 📸 Framework Evidence
 
 ## 📌 Project Structure (IntelliJ)
+<img src="assets/project-structure1.png" width="900"/>
 <img src="assets/project-structure.png" width="900"/>
 
 ## 📌 Test Execution
-<img src="assets/test-execution.png" width="900"/>
-
-
-## 📌 JSON Test Data
-<img src="assets/json-data.png" width="900"/>
+<img src="assets/testng  .png" width="900"/>
 
 ## 📌 Allure Report Dashboard
 <img src="assets/allure-report.png" width="900"/>
 
-## 📌 Failed Test (Negative Scenario)
-<img src="assets/failed-test.png" width="900"/>
+## 📌 Manual Report Template
+<img src="assets/TC" width="900"/>
+<img src="assets/Bug Report" width="900"/>
 
 ---
 
@@ -149,6 +147,14 @@ Any unexpected behavior observed during execution is documented using structured
 
 ---
 
+## 🎥 Demo
+
+The following demonstration showcases the complete testing workflow:
+
+▶️ Watch Demo: *https://youtu.be/v404Z-Axbt4*
+
+---
+
 # 💡 Key Learning Outcomes
 
 - Building a real-world automation framework from scratch
@@ -166,10 +172,5 @@ Any unexpected behavior observed during execution is documented using structured
 
 Software Test Engineer
 
-🏅 ISTQB® Certified Tester Foundation Level (CTFL v4.0)
-
 ---
 
-# ⭐ If you like this project
-
-Feel free to ⭐ the repository and connect with me on LinkedIn for QA and automation discussions.
