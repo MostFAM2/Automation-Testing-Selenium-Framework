@@ -1,0 +1,9 @@
+Tests\CheckoutTests.class
+Tests\ProductsAndCartTests.class
+Tests\ScrollUITests.class
+Tests\SideBarTests.class
+Tests\BonusTests.class
+Tests\ContactUsAndTestCasesTests.class
+Tests\UserAuthTests.class
+Tests\BaseTest.class
+Tests\SearchAndReviewTests.class
